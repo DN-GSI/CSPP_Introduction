@@ -46,6 +46,9 @@ Die sprachspezifischen Genehmigungen und Beschränkungen unter der Lizenz sind d
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Messages" Type="Folder"/>
+	<Item Name="Messages" Type="Folder">
+		<Item Name="Zero Msg.lvclass" Type="LVClass" URL="../../TestActor Messages/Zero Msg/Zero Msg.lvclass"/>
+	</Item>
+	<Item Name="4_Main.vi" Type="VI" URL="../../4_Main.vi"/>
 	<Item Name="TestActor.lvclass" Type="LVClass" URL="../TestActor.lvclass"/>
 </Library>
